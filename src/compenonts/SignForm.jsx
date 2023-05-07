@@ -17,7 +17,7 @@ export const SignForm = () => {
         } else if (password !== confirmPass) {
             setConfirm(true);
         } else {
-            setError(false);
+            
             addUser();
         }
     }
